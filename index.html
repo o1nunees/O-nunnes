@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onunes</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style24.css">
+   </head>
+<body>
+   
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Jean Nunes</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="sobremim.html">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cursos.html">Cursos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Myhobbies.html">Meus Hobbies</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+   
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Images/onunes.jpg" class="d-block w-100" alt="Slide 1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Bem-vindo ao meu Perfil</h5>
+                    <p>Conheça mais sobre mim!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Images/obra1.jpeg" class="d-block w-100" alt="Slide 2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Desenvolvimento Profissional</h5>
+                    <p>Atualmente, trabalho na construção civil, especializado na instalação de pedras de granito em fachadas. Ao mesmo tempo, estou cursando Análise e Desenvolvimento de Sistemas, buscando integrar minhas experiências práticas com novas habilidades tecnológicas para explorar novas oportunidades profissionais.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Images/musculação.jpg" class="d-block w-100" alt="Slide 3">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Meus Hobbies</h5>
+                    <p>Atualmente, meus hobbies incluem fazer musculação, jogar futebol, praticar pescaria de vez em quando e sair com os amigos.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    
+    <div class="container text-center mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Images/eu.jpg" class="card-img-top" alt="Card 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Sobre Mim</h5>
+                        <p class="card-text">Conheça mais sobre minha formação e trajetória.</p>
+                        <a href="sobremim.html" class="btn btn-primary">Saiba mais</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Images/tecnologia.jpeg" class="card-img-top" alt="Card 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Cursos</h5>
+                        <p class="card-text">Confira os cursos que já concluí e as habilidades adquiridas.</p>
+                        <a href="cursos.html" class="btn btn-primary">Veja os cursos</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Images/hobbies.jpg" class="card-img-top" alt="Card 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Hobbies</h5>
+                        <p class="card-text">Aqui estão hobbies que pratico.</p>
+                        <a href="Myhobbies.html" class="btn btn-primary"> Confira</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="contato" class="mt-5 container">
+      <h2>Formulário de Contato</h2>
+      <form action="mailto:njean0989@gmail.com" method="POST" enctype="multipart/form-data">
+       
+          <div class="form-group">
+              <label for="nome">Nome Completo</label>
+              <input type="text" class="form-control" id="nome" name="nome" required>
+          </div>
+
+       
+          <div class="form-group">
+              <label for="email">E-mail</label>
+              <input type="email" class="form-control" id="email" name="email" required>
+          </div>
+
+          
+          <div class="form-group">
+              <label for="assunto">Assunto</label>
+              <input type="text" class="form-control" id="assunto" name="assunto" required>
+          </div>
+
+         
+          <div class="form-group">
+              <label for="mensagem">Mensagem</label>
+              <textarea class="form-control" id="mensagem" name="mensagem" rows="5" required></textarea>
+          </div>
+
+          
+          <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+      </form>
+
+      <h3 class="mt-4">Ou entre em contato comigo por:</h3>
+      <ul class="list-inline">
+          <li class="list-inline-item">
+              <a href="https://wa.me/+5561991920880" target="_blank">
+                  <i class="fab fa-whatsapp fa-3x"></i> WhatsApp
+              </a>
+          </li>
+          <li class="list-inline-item">
+              <a href="https://www.instagram.com/onuunees/profilecard/?igsh=bXN0ZmpsMHlpbWtks" target="_blank">
+                  <i class="fab fa-instagram fa-3x"></i> Instagram
+              </a>
+          </li>
+          <li class="list-inline-item">
+              <a href="mailto:njean0989@gmail.com">
+                  <i class="fas fa-envelope fa-3x"></i> Gmail
+              </a>
+          </li>
+      </ul>
+  </section>
+
+   
+    <footer class="bg-dark text-light text-center p-3 mt-5">
+        <p>&copy; 2024 Jean Nunes. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,138 @@
+
+
+body {
+    background-color: #000;
+    color: #ffffff; 
+    font-family: Arial, sans-serif;
+}
+
+ 
+ .hobby-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; 
+    object-fit: cover;
+    border: 3px solid rgb(237, 233, 233); 
+    margin-bottom: 15px;
+}
+
+.hobby-section {
+    text-align: left;
+    margin-top: 60px;
+    color: #000000; 
+}
+
+.hobby-title {
+    color: #f00;
+    margin-top: 10px;
+}
+
+     
+
+
+
+.navbar-dark {
+    background-color: #111; 
+    color: #000000;
+}
+
+.navbar-brand, .nav-link {
+    color: #ce1919 ;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: rgb(208, 28, 28); 
+}
+
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5); 
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.carousel-indicators button {
+    background-color: #f00; 
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    filter: invert(100%);
+}
+
+
+.card {
+    background-color: #111; 
+    border: 1px solid #222; 
+    color: #fff;
+}
+
+.card-title {
+    color: #f00; 
+}
+
+.card-text {
+    color: #ccc;
+}
+
+.card:hover {
+    box-shadow: 0 4px 10px rgba(255, 0, 0, 0.5);
+
+
+.btn-primary {
+    background-color: #f00;
+    border: none;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #b30000; 
+}
+
+
+form {
+    background-color: #111; 
+    border-radius: 10px;
+    border: 1px solid #222; 
+    color: #981919;
+}
+
+.form-control {
+    background-color: #000; 
+    color: #fff;
+    border: 1px solid #f00;
+}
+
+.form-control:focus {
+    background-color: #111; 
+    border-color: #f00; 
+    box-shadow: 0 0 5px rgba(255, 0, 0, 0.8);
+    color: #fff;
+}
+
+
+.list-inline a {
+    color: #d32727;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.list-inline a:hover {
+    color: #f00; 
+    transform: scale(1.2); 
+}
+
+.list-inline i {
+    color: #f00;
+}
+
+
+footer {
+    background-color: #111;
+    color: #ccc;
+}
+
+footer p {
+    margin: 0;
+}
